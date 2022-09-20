@@ -4,5 +4,9 @@ class Teste {
     public static void main(String[] args){
         Pessoa pessoa = new Pessoa("Kleber", 36);
         pessoa.ola();
+
+        Calculadora calc = new Calculadora();
+        float imc = calc.imc(pessoa);
+        System.out.println("IMC: " + imc);
     }
 }
