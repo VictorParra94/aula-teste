@@ -10,4 +10,21 @@ public class Pessoa {
     public void ola(){
         System.out.println("Ola " + nome + " com " + idade + " anos de idade");
     }
+    
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public int getIdade() {
+        return idade;
+    }
+
+    public void setIdade(int idade) {
+        this.idade = idade;
+    }
+    
 }
